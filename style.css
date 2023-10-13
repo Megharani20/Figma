@@ -1,0 +1,94 @@
+body{
+    background-color:navy;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+ul{
+   color: white;
+   border: 2px skyblue;
+   z-index: 2px;
+  }
+
+li{
+    display: inline;
+    margin-right: 10px;
+}
+
+button{
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+h1{
+    font-size: x-large;
+
+}
+
+.divbox{
+   padding: 150px;
+   margin: 10px;
+   margin-right: 10px;
+   display: inline;
+   width: 50%;
+   float: left;
+  
+}
+
+.divcontainer{
+    padding: 50px;
+    display: flex;
+}
+
+.style{
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    display: inline;
+    border: 2px solid red;
+}
+
+.sign{
+    border-style: darkgrey 2px;  
+    color: darkblue;
+    text-align: center;
+    
+}
+
+.submit{
+    margin: 5px;
+    background-color:slateblue;
+    border-color: slateblue;
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.twit{
+    margin: 5px;
+    background-color: skyblue;
+    border-color: skyblue;
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.content{
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+}
+
+.head{
+    font-size: xx-large;  
+}
+.textbox{
+    border-color:lightgray;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
