@@ -1,3 +1,281 @@
+
+body {
+  padding: 0;
+  margin: 0;
+font-weight: bold;
+font-family:"https://fonts.google.com/specimen/Inter";
+  
+}
+#main {
+  height: 900px;
+  width: 1100px;
+}
+li{
+display:inline;
+padding:2px;
+margin:13px;
+  }
+
+  .logo{
+    width:30px;
+    height:30px;
+   display:inline;
+  }
+
+  .header{
+  text-align:center;
+  display:flex;
+    font-family: "https://fonts.google.com/specimen/Inter";
+  }
+
+  .profile{
+  width:30px;
+  height:30px;
+  border-radius:100px;
+   position:absolute;
+   right:0px;
+   margin-left: 10px;
+   margin-right:30px;      
+  }
+.first{
+border: 1px solid #ddd;
+padding:0px;
+}
+
+.note{
+color:gray;
+height:30px;
+width:30px;
+position:absolute;
+right:100px;
+
+}
+
+.second{
+border: 1px solid #ddd;
+font-family: "https://fonts.google.com/specimen/Inter";
+}
+
+.seven{
+color:blue;
+}
+
+
+.seclist{
+
+margin:25px;
+padding:5px;
+}
+
+
+button{
+padding:5px;
+color:white;
+position:absolute;
+right:0px;
+margin-right:20px;
+background-color: blue;
+border-radius:5px;
+}
+
+
+.tab{
+ 
+
+position:absolute;
+padding:5px;
+margin:10px;
+  font-family: "https://fonts.google.com/specimen/Inter";
+border-collapse: collapse;
+
+}
+
+#tab td, #tab th {
+ margin:40px;
+border: 1px solid #ddd;
+padding: 8px;
+padding-right:12px;
+padding-left:15px;
+}
+
+#tab td{
+font-size: 30px;
+margin-bottom:50px;
+padding-bottom:40px;
+padding-top:0px;
+font-weight: bold;
+
+}
+
+
+#tab th{
+
+padding-top: 40px;
+
+}
+
+.black{
+color:gray;
+margin-left:70px;
+
+font-size:15px;
+}
+
+.red{
+font-size:15px;
+margin-left:70px;
+color:red;
+
+}
+
+.recent{
+font-size:20px;
+padding:25px;
+padding-top:55px;
+font-family: "https://fonts.google.com/specimen/Inter";
+border: 1px solid #ddd;
+
+}
+
+
+#customers {
+font-family: "https://fonts.google.com/specimen/Inter";
+
+}
+
+
+#customers th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: blue;
+color: white;
+}
+
+
+#customers td, #customers th {
+padding: 10px;
+}
+
+#customers  td{
+ height:86px;
+width: 400px;
+
+
+}
+
+.uparrow{
+color:grey;
+height:20px;
+width:20px;
+margin-left:20px;
+}
+
+.reload{
+color:grey;
+height:20px;
+width:20px;
+margin-left:20px;
+}
+
+.downarrow{
+color:grey;
+transform: rotate(180deg);
+height:20px;
+width:20px;
+margin-left:20px;
+}
+
+.total{
+font-size:15px;
+font-weight:bold;
+position:flex;
+padding-left:20px;
+padding-right:20px;
+
+}
+
+.sub{
+font-size:15px;
+margin-left:60px;
+
+}
+
+
+.view{
+color: blue;
+text-align:right;
+}
+
+.invoice{
+text-align:right;
+padding-right:20px;
+}
+
+.full{
+display:flex;
+}
+
+
+.middle{
+margin-left:50px;
+padding-left:100px;
+}
+
+.paid{
+color:green;
+font-weight: bold;
+padding-right:5px;
+padding-left:5px;
+border-radius:5px solid green;
+background-color:#e6ffe6;
+font-size:15px;
+}
+
+.Overdue{
+color:red;
+font-weight: bold;
+padding-right:5px;
+padding-left:5px;
+border-radius:5px solid green;
+background-color:#fff2f2;
+font-size:15px;
+}
+
+
+.Withdraw{
+color:gray;
+font-weight: bold;
+padding-right:5px;
+padding-left:5px;
+border-radius:5px solid green;
+background-color:#e6e6e6;
+font-size:15px;
+}
+
+.third{
+
+width:100%;
+}
+
+
+
+.home{
+
+display: flex;
+margin-left:300px;
+
+}
+
+
+
+
+
+
+
+
+
+/*
 body{
     background-color:navy;
     
@@ -92,3 +370,4 @@ h1{
     padding: 10px;
     margin: 10px;
 }
+*/
